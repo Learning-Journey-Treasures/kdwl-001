@@ -1,43 +1,32 @@
-# 基于SpringBoot的物流管理系统+uniapp微信小程序
+[点我获取源码](https://x-x.fun/e/LV9d766f8cmal)💕🤞
 
-#### 介绍
+[点我查看更多](http://blog.cyrobot.top/blog)💕🤞
+
+#### 1.项目介绍
 基于SpringBoot的物流管理系统包含三部分：
 
-前台客户下单等操作(微信小程序)
-后台物流基本信息维护等操作(PC exe管理系统or B/S管理系统)
-快递员扫码枪收发件等操作(微信小程序)
-附带项目文档说明和部署视频。
-本篇文章来源于学途拾珍( 源码：https://gitee.com/learning-journey-treasures)
+  - 前台客户下单等操作(微信小程序)
+  - 后台物流基本信息维护等操作(PC exe管理系统or B/S管理系统)
+  - 快递员扫码枪收发件等操作(微信小程序)
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+   **附带项目文档说明和部署视频。**
+#### 2.本地部署
+#####   pc端部署
+  - 创建数据库，导入数据库文件
+  - IDEA导入项目，修改数据库的配置文件（数据库名、数据库账号和密码）
+  - 开启项目，访问 http://localhost:8080  账号/密码： admin/123456, 其他角色账号请查看t_user表
+![输入图片说明](92.png)![输入图片说明](93.png)![输入图片说明](94.png)
+  
+##### 小程序端部署
+  小程序端分普通用户和快递员两个角色，采用的是微信小程序云函数。
+ 
+ - 打开Hbuildx，导入项目（普通用户和快递员的操作相同），在mainfest.json->微信小程序 ， 修改wxid（测试号无法使用云函数，请自行注册个小程序）
+ - 运行->运行到微信小程序模拟器->微信开发工具， 打开项目，注意，要使用云函数
+ - 可以免费领取1个月的云开发server
+![输入图片说明](1.png)
+ 
+ - 右键项目中/functions目录，选择上述步骤中创建的免费云空间
+ - 修改云函数中的数据链接属性（云数据库），右键/fuctions/的云函数目录，选择创建并部署（非node_modules）
+![输入图片说明](2.jpg)![输入图片说明](5.png)
+#### 3.项目部分截图
+![输入图片说明](3.png)![输入图片说明](4.png)![输入图片说明](6.png)![输入图片说明](7.png)![输入图片说明](9.png)![输入图片说明](91.png)![输入图片说明](95.png)
