@@ -1,8 +1,7 @@
  **郑重声明：项目经过本地测试，确保可以运行， 可以用于学习和毕业设计参考~** 
 
-[点我获取源码](https://x-x.fun/e/LV9d766f8cmal)💕🤞
+![gh_17810254f3db_258](https://github.com/user-attachments/assets/ac0d585a-447b-482e-b309-3c4a09b7006d)
 
-[点我查看更多](http://blog.cyrobot.top/blog)💕🤞
 
 #### 1.项目介绍
 基于SpringBoot的物流管理系统包含三部分：
